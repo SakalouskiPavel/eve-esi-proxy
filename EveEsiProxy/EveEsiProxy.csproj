@@ -87,8 +87,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\TokenModel.cs" />
+    <Compile Include="EveEsiClient.cs" />
+    <Compile Include="Models\CharacterInfo.cs" />
+    <Compile Include="Models\EsiConfig.cs" />
+    <Compile Include="Models\EsiToken.cs" />
+    <Compile Include="Models\Skills\Attributes.cs" />
+    <Compile Include="Models\Skills\CharacterSkills.cs" />
+    <Compile Include="Models\Skills\SkillDetails.cs" />
+    <Compile Include="Models\Skills\SkillsQueueItem.cs" />
+    <Compile Include="Models\Universe\DogmaAttribute.cs" />
+    <Compile Include="Models\Universe\Category.cs" />
+    <Compile Include="Models\Universe\DogmaEffect.cs" />
+    <Compile Include="Models\Universe\Group.cs" />
+    <Compile Include="Models\Universe\UniverseType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\SkillsService.cs" />
+    <Compile Include="Services\TokenService.cs" />
+    <Compile Include="Services\UniverseService.cs" />
     <Compile Include="Validators\JWTValidator.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveEsiProxy", "EveEsiProxy\EveEsiProxy.csproj", "{86DDCE43-DBF9-4973-A564-67322476038A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveEsiProxy.Tests", "EveEsiProxy.Tests\EveEsiProxy.Tests.csproj", "{BDD88784-3B7D-421A-AB17-7335238EE9D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{86DDCE43-DBF9-4973-A564-67322476038A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86DDCE43-DBF9-4973-A564-67322476038A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86DDCE43-DBF9-4973-A564-67322476038A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD88784-3B7D-421A-AB17-7335238EE9D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD88784-3B7D-421A-AB17-7335238EE9D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD88784-3B7D-421A-AB17-7335238EE9D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD88784-3B7D-421A-AB17-7335238EE9D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

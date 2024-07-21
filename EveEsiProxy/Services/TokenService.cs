@@ -66,9 +66,9 @@ namespace EveEsiProxy.Services
                 text = responseStream.ReadToEnd();
             }
 
-            var dsffgd = JsonConvert.DeserializeObject<EsiToken>(text);
+            var token = JsonConvert.DeserializeObject<EsiToken>(text);
 
-            return dsffgd;
+            return token;
         }
     }
 }
